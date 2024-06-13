@@ -7,7 +7,7 @@ import java.util.List;
 public class SearchFile {
     public static void main(String[] args) {
         List<File> fileList = new ArrayList<>();
-        searchFile(new File("C:\\Users\\a1grv\\рабочий стол\\Папки"), fileList);
+        searchFile(new File("~/some/path"), fileList);
         for (int i = 0; i < fileList.size(); i++) {
             System.out.println(i + 1 + ". " + fileList.get(i));
         }
